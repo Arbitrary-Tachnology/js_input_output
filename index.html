@@ -156,7 +156,7 @@
         const outputDiv = document.getElementById('output');
 
         //Add event listener for form submission
-        form.addEventListener('submit', function(event)
+        form.addEventListener('submit', function(event){
             //Prevent the form from actually submitting  (which would refresh the page)
             event.preventDefault();
 
@@ -165,7 +165,7 @@
             let ageValue = document.getElementById('age').value;
             let hometownValue = document.getElementById('hometown').value;
             let hobbyValue = document.getElementById('hobby').value;
-            let let messageValue = document.getElementById('message').value;
+            let messageValue = document.getElementById('message').value;
 
             //display the values in the output div
             document.getElementById('displayName').textContent = nameValue;
